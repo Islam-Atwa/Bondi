@@ -1,0 +1,30 @@
+:root{
+    --main-color:#19283f;
+    --hover-color:#33d1cc;
+}
+
+.fa-solid{
+    color: var(--main-color) !important;
+    font-size: 9rem;
+    color: blueviolet;
+}
+/* ul{
+    background-color: aqua;
+    color: blueviolet;
+} */
+
+.nav-link{
+    color: white !important;
+}
+li a:hover{
+    color: var(--hover-color) ;
+}
+.navbar-toggler{
+    background-color: white !important;
+    border-color: white !important;
+}
+.landing{
+    background-color: var(--main-color);
+    height: calc(100vh - 55px);
+}
+
